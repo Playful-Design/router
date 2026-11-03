@@ -84,8 +84,8 @@ In one short line, say which skills you used, for example: "Used stageshow for t
 
 | Skill | Install |
 | --- | --- |
-| Everything (this router and every skill below) | `npx skills add https://www.playfuldesign.app/playful-design-router` |
-| This router only | `npx skills add https://www.playfuldesign.app/skills/playful-design-router/SKILL.md` |
+| Everything (this router and every skill below) | `npx skills add playful-design/router` |
+| This router only | `npx skills add playful-design/router --skill playful-design-router` |
 | stageshow (Benji Taylor) | `npx skills add benjitaylor/skills --skill stageshow` |
 | Emil Kowalski's collection | `npx skills add emilkowalski/skills` |
 | One of Emil's | `npx skills add emilkowalski/skills --skill <name>` |
