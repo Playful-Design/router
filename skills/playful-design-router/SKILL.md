@@ -1,6 +1,6 @@
 ---
 name: playful-design-router
-description: Routes interface and design work to the right installed design skill (Emil Kowalski's design-engineering and animation skills, Benji Taylor's stageshow, Vercel's web-design-guidelines and Raphael Salaja's userinterface collection). Use at the start of any UI, visual design, motion, copy, layout, mockup or front-end polish task, when reviewing or shipping interface changes, or whenever it is unclear which design skill applies.
+description: Routes interface and design work to the right installed design skill (Emil Kowalski's design-engineering and animation skills, Benji Taylor's stageshow, Vercel's web-design-guidelines, Stewdio's blank-page and Raphael Salaja's userinterface collection). Use at the start of any UI, visual design, motion, copy, layout, mockup or front-end polish task, when reviewing or shipping interface changes, or whenever it is unclear which design skill applies.
 ---
 
 # Playful Design Router
@@ -30,6 +30,7 @@ The project's own conventions (its CLAUDE.md, AGENTS.md, design tokens or style 
 | The request is about | Use |
 | --- | --- |
 | Finding references or inspiration before designing | `gather` |
+| Turning a one-line motion or animation idea into a full prompt | `blank-page` |
 | Copying or recreating a named site, screen or component | `match` |
 | Fake or mocked product UI, hero or feature-card illustrations, bento grids, cursor or product demo animations | `stageshow` |
 | Building a new animation or transition on the web | `animate` (then `animation-performance` if it is heavy) |
@@ -90,6 +91,7 @@ In one short line, say which skills you used, for example: "Used stageshow for t
 | Emil Kowalski's collection | `npx skills add emilkowalski/skills` |
 | One of Emil's | `npx skills add emilkowalski/skills --skill <name>` |
 | web-design-guidelines (Vercel) | `npx skills add vercel-labs/agent-skills --skill web-design-guidelines` |
+| blank-page (Stewdio) | `npx skills add StewdioAI/blank-page` |
 | Raphael Salaja's collection | `npx skills add raphaelsalaja/skills` |
 | One skill from it | `npx skills add raphaelsalaja/skills --skill <name>` |
 

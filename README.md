@@ -6,7 +6,7 @@ Design skills for your coding agent, plus a router that picks the right one for 
 npx skills add playful-design/router
 ```
 
-Installs the `playful-design-router` skill and 42 skills it routes to. Works with Claude Code, Codex, Cursor and the other agents the [skills CLI](https://github.com/vercel-labs/skills) supports. More at [playfuldesign.app/skills](https://www.playfuldesign.app/skills).
+Installs the `playful-design-router` skill and 43 skills it routes to. Works with Claude Code, Codex, Cursor and the other agents the [skills CLI](https://github.com/vercel-labs/skills) supports. More at [playfuldesign.app/skills](https://www.playfuldesign.app/skills).
 
 ## What's included
 
@@ -16,6 +16,7 @@ Installs the `playful-design-router` skill and 42 skills it routes to. Works wit
 | Raphael Salaja | 25 interface principles and procedures | [raphaelsalaja/skills](https://github.com/raphaelsalaja/skills) |
 | Benji Taylor | stageshow | [benjitaylor/skills](https://github.com/benjitaylor/skills) |
 | Vercel | web-design-guidelines | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| Stewdio | blank-page | [StewdioAI/blank-page](https://github.com/StewdioAI/blank-page) |
 
 Each skill folder is an unmodified copy of its author's skill at a pinned commit, with that author's MIT license kept inside the folder. All credit belongs to them. Emil's `prototype` is left out because it shares a name with Raphael's `prototype` and the two would overwrite each other.
 
